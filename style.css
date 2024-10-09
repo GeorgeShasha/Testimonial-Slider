@@ -1,0 +1,42 @@
+body {
+    font-family: cursive;
+    background-color: #acaaaa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 300px;
+    padding: 40px 20px;
+    margin: 5px;
+    color: #fff;
+}
+
+p {
+    margin-top: -50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -45%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+}
